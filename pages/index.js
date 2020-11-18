@@ -1,6 +1,6 @@
 import { ApolloProvider } from '@apollo/client'
-import Articles from './components/Articles'
-import client from './api/gqlConnection'
+import HomePageArticles from './components/Articles'
+import client from './api/graphQL/gqlConnection'
 import NavBar from './components/Navbar'
 import styles from '../styles/Home.module.scss'
 
@@ -14,7 +14,7 @@ export default function Home() {
             <NavBar />
         </div>
         <div className={styles.hero}>
-              <Articles />  
+              <HomePageArticles />  
         </div>
       </div>
     </ApolloProvider>
