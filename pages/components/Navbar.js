@@ -5,7 +5,7 @@ export default function NavBar() {
     return(
         <div className={styles.navContainer}>
             <div className={styles.row}>
-                <Link href="/"><a><h1>Explore the Blog</h1></a></Link>
+                <Link href="/"><a><h1>Explore the Articles</h1></a></Link>
             </div>
             <div className={styles.row}>
                 <Link href=""><a className={styles.navContent}><h5>Primary Care</h5></a></Link>

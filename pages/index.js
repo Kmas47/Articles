@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.scss'
 export default function Home() {
   return (
     <ApolloProvider client={client}>
-      <title>Blog</title>
+      <title>Articles</title>
       <div className={styles.main}>
         <div className={styles.navDiv}>
             <NavBar />
