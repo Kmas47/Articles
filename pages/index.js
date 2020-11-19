@@ -1,5 +1,5 @@
 import { ApolloProvider } from '@apollo/client'
-import HomePageArticles from './components/Articles'
+import HomePageArticles from './components/HomePageArticles'
 import client from './api/graphQL/gqlConnection'
 import NavBar from './components/Navbar'
 import styles from '../styles/Home.module.scss'

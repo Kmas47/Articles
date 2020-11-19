@@ -42,11 +42,20 @@
     z-index: 1;
     width: 100%;
 
+    
+    .loading {
+      text-align: center;
+    }
+
+    .err {
+      text-align: center;
+    }
+
     .articleContainer {
       display: inline-block;
-      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
       padding-bottom: 10rem;
-      margin: 0% 10% 2% 10%;
+      margin: 0% 10% 0% 10%;
       width: 80%;
     }
 
@@ -57,6 +66,7 @@
         text-align: left;
         width: 50%;
       } 
+    
         .type {
           color: rgb(204, 131, 92);
           font-weight: 500;
