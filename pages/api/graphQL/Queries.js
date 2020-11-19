@@ -15,8 +15,8 @@ query {
 
 export const GET_ALLARTICLES = gql
 `
-query($cursor: Int!) {
-  retrievePageArticles(page: $cursor) {
+query {
+  retrievePageArticles(page: 1) {
     title
     text
     type
